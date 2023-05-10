@@ -1,16 +1,17 @@
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      fgdfgdfg
+      {/* <Header />
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <CasesSection />
+        <BlogSection />
+        <OurTeamSection />
+        <ContactSection />
+      </main>
+      <Footer /> */}
+    </>
   );
 };
