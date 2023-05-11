@@ -38,7 +38,11 @@ export const Header = () => {
               <LinkNav href="#">Article</LinkNav>
             </li>
             <li onMouseLeave={handleMouseLeave}>
-              <ButtonProperty type="button" onMouseEnter={handleMouseEnter}>
+              <ButtonProperty
+                type="button"
+                onMouseEnter={handleMouseEnter}
+                hovered={hovered}
+              >
                 <span>Property</span>
                 <IoIosArrowDown size={18} />
               </ButtonProperty>
@@ -47,7 +51,6 @@ export const Header = () => {
                   <li>
                     <a href="/#">House</a>
                   </li>
-
                   <li>
                     <a href="/#">Apartment</a>
                   </li>

@@ -17,6 +17,7 @@ export const Footer = () => {
         <FooterWrapper>
           <LogoWrapper>
             <Logo />
+
             <p>
               We provide information about properties such as houses, villas and
               apartments to help people find their dream home

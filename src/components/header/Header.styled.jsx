@@ -35,7 +35,8 @@ export const LinkList = styled.ul`
   li:last-child {
     position: relative;
   }
-  li:not(:last-child) {
+
+  > li:not(:last-child) {
     margin-right: 12px;
   }
 
@@ -44,8 +45,55 @@ export const LinkList = styled.ul`
     font-size: 14px;
     margin-left: auto;
     margin-bottom: 0;
-    li:not(:last-child) {
+    > li:not(:last-child) {
       margin-right: 24px;
+    }
+  }
+`;
+
+export const ButtonProperty = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 122px;
+  height: 34px;
+  color: #047857;
+  background-color: #d1fae5;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 32px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: ${colors.green};
+    color: ${colors.white};
+  }
+
+  span {
+    margin-right: 10px;
+  }
+  @media screen and (min-width: 768px) {
+    color: ${props => (props.hovered ? `${colors.white}` : '#f0f3fd')};
+    background-color: ${props =>
+      props.hovered ? `${colors.green}` : 'rgba(255, 255, 255, 0.1)'};
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 32px;
+  }
+`;
+
+export const PropertyList = styled.ul`
+  position: absolute;
+  left: 0;
+  border: 1px solid green;
+  border-radius: 5px;
+  background-color: white;
+
+  cursor: pointer;
+
+  li {
+    width: 122px;
+    &:hover {
+      background-color: green;
     }
   }
 `;
@@ -89,48 +137,5 @@ export const ButtonSign = styled.a`
     margin-left: 56px;
     font-weight: 600;
     font-size: 14px;
-  }
-`;
-
-export const ButtonProperty = styled.button`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  width: 122px;
-  height: 34px;
-  color: #047857;
-  background-color: #d1fae5;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 32px;
-  cursor: pointer;
-
-  &:hover {
-    background-color: ${colors.green};
-    color: ${colors.white};
-  }
-
-  span {
-    margin-right: 10px;
-  }
-  @media screen and (min-width: 768px) {
-    color: #f0f3fd;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 32px;
-  }
-`;
-
-export const PropertyList = styled.ul`
-  position: absolute;
-  top: 34;
-  left: 0;
-  cursor: pointer;
-
-  li {
-    background-color: yellowgreen;
-    &:hover {
-      background-color: green;
-    }
   }
 `;

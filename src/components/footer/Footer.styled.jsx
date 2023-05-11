@@ -15,7 +15,7 @@ export const FooterWrapper = styled.div`
 `;
 
 export const LogoWrapper = styled.div`
-  p {
+  > p {
     margin-top: 16px;
     margin-bottom: 24px;
   }

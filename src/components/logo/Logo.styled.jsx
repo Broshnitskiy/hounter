@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { colors } from '../../styles/colors';
 
 export const LogoWrapperLink = styled.a`
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   color: ${colors.textHeaderColor};
