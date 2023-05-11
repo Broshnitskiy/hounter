@@ -1,9 +1,10 @@
+import { Header } from './header/Header';
+
 export const App = () => {
   return (
     <>
-      fgdfgdfg
-      {/* <Header />
-      <main>
+      <Header />
+      {/* <main>
         <HeroSection />
         <AboutSection />
         <CasesSection />

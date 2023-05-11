@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import backgroundImage from '../images/design-background.png';
 
 export const GlobalStyles = createGlobalStyle`
 
@@ -6,6 +7,9 @@ body{
 font-family: 'Lexend', sans-serif;
 font-style: normal;
 font-weight: 500;
+background-image:url(${backgroundImage});
+background-repeat: no-repeat;
+background-size: cover;
   
   ::-webkit-scrollbar {
   display: none;

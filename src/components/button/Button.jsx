@@ -7,6 +7,8 @@ export const Button = props => {
       backgroundColor={props.backgroundColor}
       textColor={props.textColor}
       fontSize={props.fontSize}
+      borderColor={props.borderColor}
+      padding={props.padding}
     >
       {props.children}
     </StyledButton>
