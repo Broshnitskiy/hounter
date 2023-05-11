@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Logo } from '../logo/Logo';
 import { Container } from '../container/Container';
-import { HeaderStyled } from './Header.styled';
 import { IoIosArrowDown } from 'react-icons/io';
 import {
+  HeaderStyled,
   LinkNav,
   ButtonSign,
   NavigateHeader,
@@ -44,9 +44,16 @@ export const Header = () => {
               </ButtonProperty>
               {hovered && (
                 <PropertyList>
-                  <li>ggg</li>
-                  <li>ggg</li>
-                  <li>ggg</li>
+                  <li>
+                    <a href="/#">House</a>
+                  </li>
+
+                  <li>
+                    <a href="/#">Apartment</a>
+                  </li>
+                  <li>
+                    <a href="/#">Villa</a>
+                  </li>
                 </PropertyList>
               )}
             </li>
