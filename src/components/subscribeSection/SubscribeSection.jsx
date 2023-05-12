@@ -6,13 +6,14 @@ import {
   Section,
   SectionTitleCont,
   FormWrapper,
+  SectionWrapper,
 } from './SubscribeSection.styled';
 
 export const SubscribeSection = () => {
   return (
     <Section>
       <Container>
-        <div>
+        <SectionWrapper>
           <SectionTitleCont>
             <SectionTitle>
               Subscribe For More Info and update from Hounter
@@ -21,7 +22,7 @@ export const SubscribeSection = () => {
           <FormWrapper>
             <Form formType="email" />
           </FormWrapper>
-        </div>
+        </SectionWrapper>
       </Container>
     </Section>
   );

@@ -14,14 +14,15 @@ export const InButtonWrap = styled.div`
 export const FormComp = styled.form`
   position: relative;
   display: inline-block;
+  width: 100%;
   input {
-    width: 300px;
+    width: 100%;
     height: 46px;
     background: #ffffff;
     outline: none;
     border: 1px solid #e0e3eb;
     border-radius: 26px;
-    padding-left: 40px;
+    padding-left: 35px;
 
     &::placeholder {
       font-weight: 400;
@@ -32,6 +33,11 @@ export const FormComp = styled.form`
   }
 
   @media screen and (min-width: 768px) {
+    width: 400px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: unset;
     input {
       width: 496px;
       height: 56px;
@@ -49,10 +55,10 @@ export const FormComp = styled.form`
 export const SvgWrapper = styled.div`
   position: absolute;
   top: 50%;
-  left: 14px;
+  left: 12px;
   transform: translateY(-50%);
   line-height: 0;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     left: 24px;
   }
 `;

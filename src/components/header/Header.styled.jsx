@@ -3,6 +3,10 @@ import { colors } from '../../styles/colors';
 
 export const HeaderStyled = styled.header`
   padding-top: 16px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 `;
 
 export const NavigateHeader = styled.nav`
@@ -58,8 +62,9 @@ export const ButtonProperty = styled.button`
   padding: 0;
   width: 122px;
   height: 34px;
-  color: #047857;
-  background-color: #d1fae5;
+  color: ${props => (props.hovered === 'true' ? `${colors.white}` : '#047857')};
+  background-color: ${props =>
+    props.hovered === 'true' ? `${colors.green}` : '#d1fae5'};
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 32px;
   cursor: pointer;
@@ -72,7 +77,7 @@ export const ButtonProperty = styled.button`
   span {
     margin-right: 10px;
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     color: ${props =>
       props.hovered === 'true' ? `${colors.white}` : '#f0f3fd'};
     background-color: ${props =>
@@ -113,7 +118,7 @@ export const LinkNav = styled.a`
     color: ${colors.white};
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     color: #f0f3fd;
     background-color: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.3);
