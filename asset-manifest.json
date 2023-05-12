@@ -1,19 +1,22 @@
 {
   "files": {
     "main.css": "/hounter/static/css/main.7cf4591f.css",
-    "main.js": "/hounter/static/js/main.167405b0.js",
+    "main.js": "/hounter/static/js/main.13ca7dad.js",
     "static/media/design-background.png": "/hounter/static/media/design-background.b65fbbb60b549ae74988.png",
+    "static/media/Subscribe.jpg": "/hounter/static/media/Subscribe.25afa3b20828226575c2.jpg",
     "static/media/slick.svg": "/hounter/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/hounter/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/hounter/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/hounter/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/hounter/index.html",
+    "static/media/point.svg": "/hounter/static/media/point.acbb64d65609815f40f3b0f7327bf17d.svg",
+    "static/media/envelope.svg": "/hounter/static/media/envelope.e9499528cd9fa46e1a372aa1c16aec75.svg",
     "static/media/logo.svg": "/hounter/static/media/logo.81040439079c64f5fa5c1905ac18f708.svg",
     "main.7cf4591f.css.map": "/hounter/static/css/main.7cf4591f.css.map",
-    "main.167405b0.js.map": "/hounter/static/js/main.167405b0.js.map"
+    "main.13ca7dad.js.map": "/hounter/static/js/main.13ca7dad.js.map"
   },
   "entrypoints": [
     "static/css/main.7cf4591f.css",
-    "static/js/main.167405b0.js"
+    "static/js/main.13ca7dad.js"
   ]
 }
