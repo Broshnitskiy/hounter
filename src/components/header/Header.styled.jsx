@@ -73,9 +73,12 @@ export const ButtonProperty = styled.button`
     margin-right: 10px;
   }
   @media screen and (min-width: 768px) {
-    color: ${props => (props.hovered ? `${colors.white}` : '#f0f3fd')};
+    color: ${props =>
+      props.hovered === 'true' ? `${colors.white}` : '#f0f3fd'};
     background-color: ${props =>
-      props.hovered ? `${colors.green}` : 'rgba(255, 255, 255, 0.1)'};
+      props.hovered === 'true'
+        ? `${colors.green}`
+        : 'rgba(255, 255, 255, 0.1)'};
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 32px;
   }

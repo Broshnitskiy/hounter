@@ -1,6 +1,6 @@
 import React from 'react';
-import { TitleH2 } from './AccentTitle.styled';
+import { TitleH2 } from './SectionTitle.styled';
 
-export const AccentTitle = ({ text }) => {
-  return <TitleH2>{text}</TitleH2>;
+export const SectionTitle = ({ children }) => {
+  return <TitleH2>{children}</TitleH2>;
 };

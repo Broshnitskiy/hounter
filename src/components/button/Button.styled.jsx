@@ -9,16 +9,20 @@ export const StyledButton = styled.button`
   color: ${colors.white};
   background-color: ${colors.green};
   border: none;
-  border-radius: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
-  height: 48px;
+  border-radius: 26px;
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 38px;
 
   &:hover {
     background-color: ${colors.styleColor};
   }
 
   @media screen and (min-width: 768px) {
+    border-radius: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 48px;
     font-weight: 600;
     font-size: 14px;
   }

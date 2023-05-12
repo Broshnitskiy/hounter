@@ -41,7 +41,7 @@ export const Header = () => {
               <ButtonProperty
                 type="button"
                 onMouseEnter={handleMouseEnter}
-                hovered={hovered}
+                hovered={hovered.toString()}
               >
                 <span>Property</span>
                 <IoIosArrowDown size={18} />
