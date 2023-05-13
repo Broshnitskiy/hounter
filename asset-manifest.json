@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/hounter/static/css/main.7cf4591f.css",
-    "main.js": "/hounter/static/js/main.a50c6c2d.js",
+    "main.js": "/hounter/static/js/main.3e0ee8da.js",
     "static/media/heroImg.jpg": "/hounter/static/media/heroImg.1fc763468519dbb0f4cb.jpg",
     "static/media/design-background.png": "/hounter/static/media/design-background.b65fbbb60b549ae74988.png",
+    "static/media/group.png": "/hounter/static/media/group.8ccc4419f1187d348963.png",
     "static/media/Subscribe.jpg": "/hounter/static/media/Subscribe.25afa3b20828226575c2.jpg",
     "static/media/tripadvisor.svg": "/hounter/static/media/tripadvisor.141a1ef37bf1ba5927f8337a15045019.svg",
     "static/media/airbnb.svg": "/hounter/static/media/airbnb.3c775caf0d31ed76e275fc28806012cc.svg",
+    "static/media/ellipse.png": "/hounter/static/media/ellipse.ccb503714464060e04c9.png",
     "static/media/ticketcom.svg": "/hounter/static/media/ticketcom.928ad729a72187e835895286a7019fb1.svg",
     "static/media/traveloka.svg": "/hounter/static/media/traveloka.e6fdbbb65817e4ce3018b669af7bb70b.svg",
     "static/media/slick.svg": "/hounter/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -18,10 +20,10 @@
     "static/media/envelope.svg": "/hounter/static/media/envelope.e9499528cd9fa46e1a372aa1c16aec75.svg",
     "static/media/logo.svg": "/hounter/static/media/logo.81040439079c64f5fa5c1905ac18f708.svg",
     "main.7cf4591f.css.map": "/hounter/static/css/main.7cf4591f.css.map",
-    "main.a50c6c2d.js.map": "/hounter/static/js/main.a50c6c2d.js.map"
+    "main.3e0ee8da.js.map": "/hounter/static/js/main.3e0ee8da.js.map"
   },
   "entrypoints": [
     "static/css/main.7cf4591f.css",
-    "static/js/main.a50c6c2d.js"
+    "static/js/main.3e0ee8da.js"
   ]
 }
