@@ -85,6 +85,8 @@ export const SectionWrapper = styled.div`
 `;
 
 export const ImageBlock = styled.div`
+  position: relative;
+
   @media screen and (min-width: 1200px) {
     > img {
       width: 600px;
@@ -96,4 +98,22 @@ export const ImageBlock = styled.div`
       width: 700px;
     }
   }
+`;
+
+export const StickerContainer = styled.div`
+  background-color: white;
+  display: block;
+  height: 116px;
+  padding: 24px;
+
+  margin-right: 16px;
+  border-radius: 32px;
+`;
+
+export const SliderContainer = styled.div`
+  width: 100%;
+  position: absolute;
+  bottom: 38px;
+  left: 0;
+  overflow: hidden;
 `;
