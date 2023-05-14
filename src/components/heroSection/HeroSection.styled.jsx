@@ -5,6 +5,9 @@ export const Section = styled.section`
   @media screen and (min-width: 992px) {
     padding-bottom: 120px;
   }
+  @media screen and (min-width: 1700px) {
+    padding-bottom: 200px;
+  }
 `;
 
 export const TitleBlock = styled.div`
@@ -55,7 +58,6 @@ export const TitleBlock = styled.div`
 
   @media screen and (min-width: 992px) {
     margin-left: 0;
-    margin-right: 20px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -77,25 +79,33 @@ export const FormWrapper = styled.div`
   margin-bottom: 32px;
 `;
 
-export const SectionWrapper = styled.div`
-  @media screen and (min-width: 992px) {
-    display: flex;
-    justify-content: space-between;
-  }
-`;
-
 export const ImageBlock = styled.div`
   position: relative;
 
+  @media screen and (min-width: 992px) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    > img {
+      width: 550px;
+    }
+  }
+
   @media screen and (min-width: 1200px) {
     > img {
-      width: 600px;
+      width: 660px;
     }
   }
 
   @media screen and (min-width: 1440px) {
     > img {
-      width: 700px;
+      width: 750px;
+    }
+  }
+  @media screen and (min-width: 1700px) {
+    > img {
+      width: 820px;
     }
   }
 `;

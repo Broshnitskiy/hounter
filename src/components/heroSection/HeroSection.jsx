@@ -8,7 +8,6 @@ import {
   TitleBlock,
   ImageBlock,
   FormWrapper,
-  SectionWrapper,
   StickerContainer,
   SliderContainer,
 } from './HeroSection.styled';
@@ -39,104 +38,102 @@ export const HeroSection = () => {
   return (
     <Section>
       <Container>
-        <SectionWrapper>
-          <TitleBlock>
-            <h1>
-              Find The Place To Live <span>Your Dreams</span> Easily Here
-            </h1>
-            <p>
-              Everything you need about finding your place to live will be here,
-              where it will be easier for you
-            </p>
-            <FormWrapper>
-              <Form />
-            </FormWrapper>
+        <TitleBlock>
+          <h1>
+            Find The Place To Live <span>Your Dreams</span> Easily Here
+          </h1>
+          <p>
+            Everything you need about finding your place to live will be here,
+            where it will be easier for you
+          </p>
+          <FormWrapper>
+            <Form />
+          </FormWrapper>
 
-            <p>Our Partnership </p>
+          <p>Our Partnership </p>
 
-            <ul>
-              <li key="traveloka">
-                <img src={TravelokaSvg} alt="Icon" />
-              </li>
-              <li key="ticket">
-                <img src={TicketSvg} alt="Icon" />
-              </li>
-              <li key="airbnb">
-                <img src={AirBnbSvg} alt="Icon" />
-              </li>
-              <li key="tripadvisor">
-                <img src={TripAdvisorSvg} alt="Icon" />
-              </li>
-            </ul>
-          </TitleBlock>
-          <ImageBlock>
-            <img src={HeroImg} alt="House" />
-            <SliderContainer>
-              <Slider {...settings}>
-                <div>
-                  <StickerContainer>
-                    <StickerInfo
-                      img={groupImg}
-                      imgWidth="110px"
-                      title="1K+ People"
-                      text="Successfully Getting Home"
-                    />
-                  </StickerContainer>
-                </div>
-                <div>
-                  <StickerContainer>
-                    <StickerInfo
-                      img={ellipseImg}
-                      imgWidth="60px"
-                      title="4K+ People"
-                      text="Getting Home"
-                    />
-                  </StickerContainer>
-                </div>
-                <div>
-                  <StickerContainer>
-                    <StickerInfo
-                      img={rectangleImg}
-                      imgWidth="60px"
-                      title="56 Houses"
-                      text="Sold Monthly"
-                    />
-                  </StickerContainer>
-                </div>
-                <div>
-                  <StickerContainer>
-                    <StickerInfo
-                      img={groupImg}
-                      imgWidth="110px"
-                      title="1K+ People"
-                      text="Successfully Getting Home"
-                    />
-                  </StickerContainer>
-                </div>
-                <div>
-                  <StickerContainer>
-                    <StickerInfo
-                      img={ellipseImg}
-                      imgWidth="60px"
-                      title="4K+ People"
-                      text="Getting Home"
-                    />
-                  </StickerContainer>
-                </div>
-                <div>
-                  <StickerContainer>
-                    <StickerInfo
-                      img={rectangleImg}
-                      imgWidth="60px"
-                      title="56 Houses"
-                      text="Sold Monthly"
-                    />
-                  </StickerContainer>
-                </div>
-              </Slider>
-            </SliderContainer>
-          </ImageBlock>
-        </SectionWrapper>
+          <ul>
+            <li key="traveloka">
+              <img src={TravelokaSvg} alt="Icon" />
+            </li>
+            <li key="ticket">
+              <img src={TicketSvg} alt="Icon" />
+            </li>
+            <li key="airbnb">
+              <img src={AirBnbSvg} alt="Icon" />
+            </li>
+            <li key="tripadvisor">
+              <img src={TripAdvisorSvg} alt="Icon" />
+            </li>
+          </ul>
+        </TitleBlock>
+        <ImageBlock>
+          <img src={HeroImg} alt="House" />
+          <SliderContainer>
+            <Slider {...settings}>
+              <div>
+                <StickerContainer>
+                  <StickerInfo
+                    img={groupImg}
+                    imgWidth="110px"
+                    title="1K+ People"
+                    text="Successfully Getting Home"
+                  />
+                </StickerContainer>
+              </div>
+              <div>
+                <StickerContainer>
+                  <StickerInfo
+                    img={ellipseImg}
+                    imgWidth="60px"
+                    title="4K+ People"
+                    text="Getting Home"
+                  />
+                </StickerContainer>
+              </div>
+              <div>
+                <StickerContainer>
+                  <StickerInfo
+                    img={rectangleImg}
+                    imgWidth="60px"
+                    title="56 Houses"
+                    text="Sold Monthly"
+                  />
+                </StickerContainer>
+              </div>
+              <div>
+                <StickerContainer>
+                  <StickerInfo
+                    img={groupImg}
+                    imgWidth="110px"
+                    title="1K+ People"
+                    text="Successfully Getting Home"
+                  />
+                </StickerContainer>
+              </div>
+              <div>
+                <StickerContainer>
+                  <StickerInfo
+                    img={ellipseImg}
+                    imgWidth="60px"
+                    title="4K+ People"
+                    text="Getting Home"
+                  />
+                </StickerContainer>
+              </div>
+              <div>
+                <StickerContainer>
+                  <StickerInfo
+                    img={rectangleImg}
+                    imgWidth="60px"
+                    title="56 Houses"
+                    text="Sold Monthly"
+                  />
+                </StickerContainer>
+              </div>
+            </Slider>
+          </SliderContainer>
+        </ImageBlock>
       </Container>
     </Section>
   );

@@ -3,11 +3,6 @@ import { colors } from '../../styles/colors';
 
 export const HeaderStyled = styled.header`
   padding-top: 16px;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 100;
 `;
 
 export const NavigateHeader = styled.nav`
