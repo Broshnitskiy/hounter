@@ -103,11 +103,16 @@ export const ImageBlock = styled.div`
 export const StickerContainer = styled.div`
   background-color: white;
   display: block;
-  height: 116px;
-  padding: 24px;
+  /* height: 96px; */
+  padding: 6px;
+  overflow: hidden;
 
   margin-right: 16px;
   border-radius: 32px;
+  @media screen and (min-width: 1200px) {
+    height: 116px;
+    padding: 24px;
+  }
 `;
 
 export const SliderContainer = styled.div`

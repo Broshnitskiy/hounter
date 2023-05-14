@@ -1,5 +1,6 @@
 import { Header } from './header/Header';
 import { HeroSection } from './heroSection/HeroSection';
+import { FindMoreSection } from './findMoreSection/FindMoreSection';
 import { SubscribeSection } from './subscribeSection/SubscribeSection';
 import { Footer } from './footer/Footer';
 
@@ -11,8 +12,8 @@ export const App = () => {
 
       <main>
         <HeroSection />
+        <FindMoreSection />
         <SubscribeSection />
-
         {/* <HeroSection />
         <AboutSection />
         <CasesSection />

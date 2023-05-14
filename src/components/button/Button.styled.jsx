@@ -11,7 +11,7 @@ export const StyledButton = styled.button`
   border: none;
   border-radius: 26px;
   padding-left: 6px;
-  padding-right: 1px;
+  padding-right: 6px;
   height: 38px;
 
   &:hover {

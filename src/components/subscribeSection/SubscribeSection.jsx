@@ -8,6 +8,7 @@ import {
   FormWrapper,
   SectionWrapper,
 } from './SubscribeSection.styled';
+import { capitalizeWords } from '../../helpers/capitalizeWords';
 
 export const SubscribeSection = () => {
   return (
@@ -16,7 +17,9 @@ export const SubscribeSection = () => {
         <SectionWrapper>
           <SectionTitleCont>
             <SectionTitle>
-              Subscribe For More Info and update from Hounter
+              {capitalizeWords(
+                'subscribe for more info and update from hounter'
+              )}
             </SectionTitle>
           </SectionTitleCont>
           <FormWrapper>

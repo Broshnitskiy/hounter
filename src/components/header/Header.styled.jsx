@@ -11,11 +11,8 @@ export const HeaderStyled = styled.header`
 `;
 
 export const NavigateHeader = styled.nav`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
   @media screen and (min-width: 768px) {
+    display: flex;
     flex-direction: row;
     align-items: center;
   }
@@ -60,8 +57,8 @@ export const ButtonProperty = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
-  width: 122px;
+  padding: 0 6px;
+
   height: 34px;
   color: ${props => (props.hovered === 'true' ? `${colors.white}` : '#047857')};
   background-color: ${props =>
@@ -77,6 +74,10 @@ export const ButtonProperty = styled.button`
 
   span {
     margin-right: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 122px;
   }
   @media screen and (min-width: 1200px) {
     color: ${props =>

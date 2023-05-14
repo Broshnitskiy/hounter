@@ -1,11 +1,11 @@
 import React from 'react';
 import { Wrapper } from './AccentTitle.styled';
 
-export const AccentTitle = ({ direction, text }) => {
+export const AccentTitle = ({ direction, children }) => {
   return (
     <Wrapper direction={direction}>
       <div></div>
-      <p>{text}</p>
+      <p>{children}</p>
     </Wrapper>
   );
 };
