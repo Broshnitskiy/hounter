@@ -19,7 +19,7 @@ export const TitleBlock = styled.div`
     line-height: 40px;
     margin-bottom: 24px;
     color: #1b1c57;
-    padding-top: 222px;
+    padding-top: 62px;
     span {
       color: #fff;
       text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
@@ -51,13 +51,13 @@ export const TitleBlock = styled.div`
       font-size: 16px;
       line-height: 28px;
     }
-    h1 {
-      padding-top: 96px;
-    }
   }
 
   @media screen and (min-width: 992px) {
     margin-left: 0;
+    h1 {
+      padding-top: 96px;
+    }
   }
 
   @media screen and (min-width: 1200px) {
@@ -113,7 +113,6 @@ export const ImageBlock = styled.div`
 export const StickerContainer = styled.div`
   background-color: white;
   display: block;
-  /* height: 96px; */
   padding: 6px;
   overflow: hidden;
 

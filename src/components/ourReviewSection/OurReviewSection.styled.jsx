@@ -1,20 +1,35 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 
   @media screen and (min-width: 768px) {
-    padding-bottom: 200px;
+    padding-bottom: 120px;
   }
 `;
 
 export const SectionContentWrapper = styled.div`
+  margin-right: 10px;
+
   position: relative;
   display: inline-block;
-  margin-right: 56px;
-  padding-bottom: 160px;
+
+  > img {
+    height: 100px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 230px;
+    margin-right: 56px;
+    > img {
+      height: 290px;
+    }
+  }
 
   @media screen and (min-width: 992px) {
+    > img {
+      height: 100%;
+    }
     padding-bottom: 115px;
   }
 `;
@@ -25,14 +40,14 @@ export const SectionTitleWrapper = styled.div`
 `;
 
 export const CardContainer = styled.div`
-  padding: 32px;
+  padding: 8px;
   background: #ffffff;
   box-shadow: 0px 9px 32px rgba(89, 92, 219, 0.05);
   border-radius: 16px;
   width: 200px;
   > h3 {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
     margin-bottom: 16px;
     color: #1b1c57;
@@ -53,7 +68,7 @@ export const CardContainer = styled.div`
     top: 256px;
     left: 50%;
     transform: translateX(-50%);
-    width: 500px;
+    width: 460px;
 
     > h3 {
       font-size: 20px;
@@ -68,12 +83,15 @@ export const CardContainer = styled.div`
 
   @media screen and (min-width: 992px) {
     width: 612px;
+    padding: 32px;
   }
 `;
 
 export const StickerInfoWrapper = styled.div`
-  display: flex;
-  justify-content: space-between;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
 `;
 
 export const Rating = styled.div`

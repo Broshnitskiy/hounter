@@ -7,11 +7,14 @@ import {
   StickerInfoWrapper,
   SectionContentWrapper,
 } from './OurReviewSection.styled';
+import { Container } from 'components/container/Container';
 import { AccentTitle } from 'components/accentTitle/AccentTitle';
 import { SectionTitle } from 'components/sectionTitle/SectionTitle';
 import { capitalizeWords } from '../../helpers/capitalizeWords';
 import { StickerInfo } from 'components/stickerInfo/Sticker.info';
 import DianneImg from '../../images/stickers/dianne.png';
+import CameronImg from '../../images/stickers/cameron.png';
+import HenryImg from '../../images/stickers/henry.png';
 import House1 from '../../images/our-review-img/house-1.jpg';
 import House2 from '../../images/our-review-img/house-2.jpg';
 import House3 from '../../images/our-review-img/house-3.jpg';
@@ -37,14 +40,16 @@ export const OurReviewSection = () => {
 
   return (
     <Section>
-      <AccentTitle direction="column">
-        {capitalizeWords('see our review')}
-      </AccentTitle>
-      <SectionTitleWrapper>
-        <SectionTitle>
-          {capitalizeWords('What our user say about us')}
-        </SectionTitle>
-      </SectionTitleWrapper>
+      <Container>
+        <AccentTitle direction="column">
+          {capitalizeWords('see our review')}
+        </AccentTitle>
+        <SectionTitleWrapper>
+          <SectionTitle>
+            {capitalizeWords('What our user say about us')}
+          </SectionTitle>
+        </SectionTitleWrapper>
+      </Container>
 
       <Slider {...settings}>
         <div>
@@ -53,9 +58,9 @@ export const OurReviewSection = () => {
             <CardContainer>
               <h3>Best! I got the house I wanted through Hounter</h3>
               <p>
-                Through this website I can get a house with the type and
-                specifications I want very easily, without a complicated process
-                to be able to find information on the house we want.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius
+                molestiae consectetur voluptatum quam itaque porro dolores qui
+                totam minus voluptas molestiae consectetur voluptatum quam.
               </p>
               <StickerInfoWrapper>
                 <StickerInfo
@@ -78,20 +83,20 @@ export const OurReviewSection = () => {
             <CardContainer>
               <h3>Best! I got the house I wanted through Hounter</h3>
               <p>
-                Through this website I can get a house with the type and
-                specifications I want very easily, without a complicated process
-                to be able to find information on the house we want.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius
+                molestiae consectetur voluptatum quam itaque porro dolores qui
+                totam minus voluptas molestiae consectetur voluptatum quam.
               </p>
               <StickerInfoWrapper>
                 <StickerInfo
-                  img={DianneImg}
+                  img={CameronImg}
                   imgWidth="40px"
                   title="Dianne Russell"
                   text="Manager Director"
                 />
                 <Rating>
                   <AiFillStar size={28} />
-                  <p>4.6</p>
+                  <p>4.8</p>
                 </Rating>
               </StickerInfoWrapper>
             </CardContainer>
@@ -103,20 +108,20 @@ export const OurReviewSection = () => {
             <CardContainer>
               <h3>Best! I got the house I wanted through Hounter</h3>
               <p>
-                Through this website I can get a house with the type and
-                specifications I want very easily, without a complicated process
-                to be able to find information on the house we want.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius
+                molestiae consectetur voluptatum quam itaque porro dolores qui
+                totam minus voluptas molestiae consectetur voluptatum quam.
               </p>
               <StickerInfoWrapper>
                 <StickerInfo
-                  img={DianneImg}
+                  img={HenryImg}
                   imgWidth="40px"
                   title="Dianne Russell"
                   text="Manager Director"
                 />
                 <Rating>
                   <AiFillStar size={28} />
-                  <p>4.6</p>
+                  <p>4.4</p>
                 </Rating>
               </StickerInfoWrapper>
             </CardContainer>
