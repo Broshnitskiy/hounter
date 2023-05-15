@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hounter/static/css/main.7cf4591f.css",
-    "main.js": "/hounter/static/js/main.a7646c93.js",
+    "main.js": "/hounter/static/js/main.6b6c54a9.js",
     "static/media/find-out-more-4.jpg": "/hounter/static/media/find-out-more-4.102e4add46644164cbc9.jpg",
     "static/media/heroImg.jpg": "/hounter/static/media/heroImg.1fc763468519dbb0f4cb.jpg",
     "static/media/design-background.png": "/hounter/static/media/design-background.b65fbbb60b549ae74988.png",
@@ -27,10 +27,10 @@
     "static/media/envelope.svg": "/hounter/static/media/envelope.e9499528cd9fa46e1a372aa1c16aec75.svg",
     "static/media/logo.svg": "/hounter/static/media/logo.81040439079c64f5fa5c1905ac18f708.svg",
     "main.7cf4591f.css.map": "/hounter/static/css/main.7cf4591f.css.map",
-    "main.a7646c93.js.map": "/hounter/static/js/main.a7646c93.js.map"
+    "main.6b6c54a9.js.map": "/hounter/static/js/main.6b6c54a9.js.map"
   },
   "entrypoints": [
     "static/css/main.7cf4591f.css",
-    "static/js/main.a7646c93.js"
+    "static/js/main.6b6c54a9.js"
   ]
 }
