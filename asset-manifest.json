@@ -1,16 +1,20 @@
 {
   "files": {
     "main.css": "/hounter/static/css/main.7cf4591f.css",
-    "main.js": "/hounter/static/js/main.6b6c54a9.js",
+    "main.js": "/hounter/static/js/main.84b49d7d.js",
     "static/media/find-out-more-4.jpg": "/hounter/static/media/find-out-more-4.102e4add46644164cbc9.jpg",
+    "static/media/foto-4.jpg": "/hounter/static/media/foto-4.0816e0380111033518a9.jpg",
     "static/media/heroImg.jpg": "/hounter/static/media/heroImg.1fc763468519dbb0f4cb.jpg",
+    "static/media/foto-1.jpg": "/hounter/static/media/foto-1.667801735efb8a722994.jpg",
     "static/media/design-background.png": "/hounter/static/media/design-background.b65fbbb60b549ae74988.png",
     "static/media/house-1.jpg": "/hounter/static/media/house-1.f22b24d550c97289ffab.jpg",
+    "static/media/foto-2.jpg": "/hounter/static/media/foto-2.d042874dd4384ccb0995.jpg",
     "static/media/find-out-more-2.jpg": "/hounter/static/media/find-out-more-2.2de40f4d974008a53fcf.jpg",
     "static/media/find-out-more-3.jpg": "/hounter/static/media/find-out-more-3.4ebb241d125546cd85c2.jpg",
     "static/media/house-2.jpg": "/hounter/static/media/house-2.1ec2e735e8a0b3d99049.jpg",
     "static/media/find-out-more-1.jpg": "/hounter/static/media/find-out-more-1.98a1da2b1433a75d6a9a.jpg",
     "static/media/group.png": "/hounter/static/media/group.8ccc4419f1187d348963.png",
+    "static/media/foto-3.jpg": "/hounter/static/media/foto-3.79de68866fa0f74cb819.jpg",
     "static/media/house-3.jpg": "/hounter/static/media/house-3.5070b55d73c390a16c63.jpg",
     "static/media/Subscribe.jpg": "/hounter/static/media/Subscribe.25afa3b20828226575c2.jpg",
     "static/media/tripadvisor.svg": "/hounter/static/media/tripadvisor.141a1ef37bf1ba5927f8337a15045019.svg",
@@ -18,19 +22,22 @@
     "static/media/ellipse.png": "/hounter/static/media/ellipse.ccb503714464060e04c9.png",
     "static/media/ticketcom.svg": "/hounter/static/media/ticketcom.928ad729a72187e835895286a7019fb1.svg",
     "static/media/traveloka.svg": "/hounter/static/media/traveloka.e6fdbbb65817e4ce3018b669af7bb70b.svg",
+    "static/media/bathroom.svg": "/hounter/static/media/bathroom.9a9acaf19467dec49ba3472e76c2f2ae.svg",
     "static/media/slick.svg": "/hounter/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/hounter/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/carport.svg": "/hounter/static/media/carport.52d0d2cf5a87f215429a2f05307390cc.svg",
     "static/media/slick.ttf": "/hounter/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/hounter/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/hounter/index.html",
+    "static/media/floor.svg": "/hounter/static/media/floor.fab6bf91df6bc0a97600a39d3da46472.svg",
     "static/media/point.svg": "/hounter/static/media/point.acbb64d65609815f40f3b0f7327bf17d.svg",
     "static/media/envelope.svg": "/hounter/static/media/envelope.e9499528cd9fa46e1a372aa1c16aec75.svg",
     "static/media/logo.svg": "/hounter/static/media/logo.81040439079c64f5fa5c1905ac18f708.svg",
     "main.7cf4591f.css.map": "/hounter/static/css/main.7cf4591f.css.map",
-    "main.6b6c54a9.js.map": "/hounter/static/js/main.6b6c54a9.js.map"
+    "main.84b49d7d.js.map": "/hounter/static/js/main.84b49d7d.js.map"
   },
   "entrypoints": [
     "static/css/main.7cf4591f.css",
-    "static/js/main.6b6c54a9.js"
+    "static/js/main.84b49d7d.js"
   ]
 }
