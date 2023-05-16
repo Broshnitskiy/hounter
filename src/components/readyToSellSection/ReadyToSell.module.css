@@ -1,0 +1,15 @@
+.custom-dot{
+    pointer-events: none;
+}
+
+/* .slick-custom-dots:first-child {
+    display: none;
+} */
+
+.slick-custom-dots {
+    display: flex;
+}
+
+.slick-custom-dots > li{
+width: 120px;
+}
