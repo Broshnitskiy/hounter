@@ -49,13 +49,13 @@ export const Header = () => {
               {hovered && (
                 <PropertyList>
                   <li>
-                    <a href="/#">House</a>
+                    <a href="#">House</a>
                   </li>
                   <li>
-                    <a href="/#">Apartment</a>
+                    <a href="#">Apartment</a>
                   </li>
                   <li>
-                    <a href="/#">Villa</a>
+                    <a href="#">Villa</a>
                   </li>
                 </PropertyList>
               )}

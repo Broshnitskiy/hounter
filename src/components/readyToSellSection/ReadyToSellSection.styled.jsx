@@ -91,7 +91,7 @@ export const HouseDetailWrapper = styled.div`
   line-height: 28px;
   color: #1b1c57;
   opacity: 0.75;
-  border-bottom: 2px solid #f0f3fd;
+
   margin-bottom: 32px;
 
   > p {
@@ -106,7 +106,8 @@ export const HouseDetailWrapper = styled.div`
   }
 
   > div {
-    margin-bottom: 32px;
+    padding-bottom: 32px;
+    border-bottom: 2px solid #f0f3fd;
     > ul {
       > li {
         display: flex;
