@@ -1,0 +1,51 @@
+.scrollToTopBtn {
+  display: block;
+  background-color: rgba(128, 128, 128, 0.2);
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  opacity: 0;
+  position: fixed;
+  bottom: 270px;
+  right: 55px;
+  z-index: 200;
+  transform: translateY(100px);
+  transition: all 0.5s ease;
+}
+
+.scrollToTopBtn:active {
+  background-color: #26bd62;
+}
+.scrollToTopBtn:active .arrowUpIcon {
+  fill: #ebf2f2;
+}
+
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.arrowUpIcon {
+  font-size: 40px;
+  fill: #26bd62;
+}
+
+
+@media screen and (min-width: 678px) {
+  .arrowUpIcon {
+    font-size: 60px;
+  }
+
+  .scrollToTopBtn {
+    right: 35px;
+    bottom: 236px;
+  }
+
+  .scrollToTopBtn:hover {
+    background-color: #26bd62;
+  }
+  .scrollToTopBtn:hover .arrowUpIcon {
+    fill: #ebf2f2;
+  }
+}
