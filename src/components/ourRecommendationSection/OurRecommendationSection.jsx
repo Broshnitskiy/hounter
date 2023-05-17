@@ -16,6 +16,8 @@ import { BsFillHouseDoorFill } from 'react-icons/bs';
 import { MdVilla, MdApartment } from 'react-icons/md';
 import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io';
 import { CardHouseList } from './CardHouseList';
+import { CardApartmentList } from './CardApartmentList';
+import { CardVillaList } from './CardVillaList';
 
 export const OurRecommendationSection = () => {
   const [activeButton, setActiveButton] = useState('house');
@@ -90,8 +92,12 @@ export const OurRecommendationSection = () => {
           </ButtonArrowWrapper>
         </SectionWrapper>
       </Container>
+      {activeButton === 'house' && <CardHouseList refProp={sliderRef} />}
+      {activeButton === 'apartment' && (
+        <CardApartmentList refProp={sliderRef} />
+      )}
+      {activeButton === 'villa' && <CardVillaList refProp={sliderRef} />}
 
-      <CardHouseList refProp={sliderRef} />
       {/* <Slider {...settings} ref={sliderRef}>
         <div>
           <Card>

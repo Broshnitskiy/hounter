@@ -8,7 +8,7 @@
   opacity: 0;
   position: fixed;
   bottom: 270px;
-  right: 55px;
+  right: 15px;
   z-index: 200;
   transform: translateY(100px);
   transition: all 0.5s ease;
