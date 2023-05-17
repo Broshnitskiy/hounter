@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React from 'react';
 
 import {
   Section,
@@ -6,6 +6,11 @@ import {
   InButtonWrap,
   StickerInfoWrapper,
   HouseDetailWrapper,
+  StyledSlider,
+  SlideImg,
+  ImagesWrapper,
+  ContentWrapper,
+  SectionWrapper,
 } from './ReadyToSellSection.styled';
 import { Container } from 'components/container/Container';
 import { AccentTitle } from 'components/accentTitle/AccentTitle';
@@ -19,48 +24,35 @@ import BedroomSvg from '../../images/svg/bathroom.svg';
 import CarportSvg from '../../images/svg/carport.svg';
 import BathroomSvg from '../../images/svg/bathroom.svg';
 import FloorSvg from '../../images/svg/floor.svg';
-import Slider from 'react-slick';
+
 import Photo1 from '../../images/ready-to-sell-img/foto-1.jpg';
 import Photo2 from '../../images/ready-to-sell-img/foto-2.jpg';
 import Photo3 from '../../images/ready-to-sell-img/foto-3.jpg';
 import Photo4 from '../../images/ready-to-sell-img/foto-4.jpg';
+import Photo5 from '../../images/ready-to-sell-img/foto-5.jpg';
+import Photo6 from '../../images/ready-to-sell-img/foto-6.jpg';
 
 export const ReadyToSellSection = () => {
-  const images = [Photo1, Photo2, Photo3, Photo4];
-  const [fotoArray, setFotoArray] = useState(images); // Початковий масив зображень
-  const sliderRef = useRef(null);
-
-  const handleThumbnailHover = () => {
-    sliderRef.current.slickPause();
-  };
-
-  const handleThumbnailLeave = () => {
-    sliderRef.current.slickPlay();
-  };
+  const images = [Photo2, Photo3, Photo4, Photo5, Photo6];
 
   const settings = {
     infinite: true,
     speed: 1000,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
-    centerMode: false,
     pauseOnHover: true,
     autoplay: true,
     autoplaySpeed: 4000,
-    fade: true,
-    beforeChange: (current, next) => {
-      const updatedFotoArray = [...fotoArray];
-      const firstPhoto = updatedFotoArray.shift(); // Видаляємо перший елемент
-      updatedFotoArray.push(firstPhoto); // Додаємо його в кінець масиву
-      setFotoArray(updatedFotoArray);
-    },
+    cssEase: 'linear',
+
+    swipe: false,
   };
 
   return (
     <Section>
       <Container>
-        <div>
-          <div>
+        <SectionWrapper>
+          <ContentWrapper>
             <AccentTitle direction="row">
               {capitalizeWords('Ready to Sell!')}
             </AccentTitle>
@@ -113,43 +105,22 @@ export const ReadyToSellSection = () => {
                 </InButtonWrap>
               </Button>
             </StickerInfoWrapper>
-          </div>
-          <div>
-            <Slider {...settings} ref={sliderRef}>
+          </ContentWrapper>
+
+          <ImagesWrapper>
+            <img src={Photo1} alt="house" />
+
+            <StyledSlider {...settings}>
               {images.map((image, index) => (
                 <div key={index}>
-                  <img src={image} alt="house interier" />
+                  <div className="my-style">
+                    <SlideImg src={image} alt="house interier" />
+                  </div>
                 </div>
               ))}
-            </Slider>
-            <div>
-              {fotoArray.map(
-                (foto, index) =>
-                  index !== 0 && (
-                    <img
-                      onMouseEnter={handleThumbnailHover}
-                      onMouseLeave={handleThumbnailLeave}
-                      alt="house"
-                      key={index}
-                      src={foto}
-                      style={{
-                        width: '100px',
-                        height: '100px',
-                        margin: '0 5px',
-                        cursor: 'pointer',
-                        border: '1px solid #ccc',
-                        ...(index === 1 && {
-                          width: '200px',
-                          height: '200px',
-                          border: '2px solid #000',
-                        }),
-                      }}
-                    />
-                  )
-              )}
-            </div>
-          </div>
-        </div>
+            </StyledSlider>
+          </ImagesWrapper>
+        </SectionWrapper>
       </Container>
     </Section>
   );
