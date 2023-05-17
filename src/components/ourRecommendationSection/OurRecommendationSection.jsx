@@ -97,69 +97,6 @@ export const OurRecommendationSection = () => {
         <CardApartmentList refProp={sliderRef} />
       )}
       {activeButton === 'villa' && <CardVillaList refProp={sliderRef} />}
-
-      {/* <Slider {...settings} ref={sliderRef}>
-        <div>
-          <Card>
-            <CardImgWrapper>
-              <img src={House1} alt="house" />
-            </CardImgWrapper>
-            <h3>Roselands House</h3>
-            <p>$ 35.000.000</p>
-            <StickerInfo
-              img={DianneImg}
-              imgWidth="40px"
-              title="Dianne Russell"
-              text="Manchester, Kentucky"
-            />
-          </Card>
-        </div>
-        <div>
-          <Card>
-            <CardImgWrapper>
-              <img src={House2} alt="house" />
-            </CardImgWrapper>
-            <h3>Woodlandside</h3>
-            <p>$ 38.000.000</p>
-            <StickerInfo
-              img={Ronald}
-              imgWidth="40px"
-              title="Ronald Richards"
-              text="Santa Ana, Illinois"
-            />
-          </Card>
-        </div>
-        <div>
-          <Card>
-            <CardImgWrapper>
-              <img src={House3} alt="house" />
-            </CardImgWrapper>
-            <h3>The Old Lighthouse</h3>
-            <p>$ 44.000.000</p>
-            <StickerInfo
-              img={Robert}
-              imgWidth="40px"
-              title="Robert Fox"
-              text="South Dakota"
-            />
-          </Card>
-        </div>
-        <div>
-          <Card>
-            <CardImgWrapper>
-              <img src={House4} alt="house" />
-            </CardImgWrapper>
-            <h3>Cosmo's House</h3>
-            <p>$ 20.000.000</p>
-            <StickerInfo
-              img={Jenny}
-              imgWidth="40px"
-              title="Jenny Will"
-              text="Manchester, Kentucky"
-            />
-          </Card>
-        </div>
-      </Slider> */}
     </Section>
   );
 };
