@@ -4,7 +4,7 @@ import { LogoWrapperLink } from './Logo.styled';
 
 export const Logo = () => {
   return (
-    <LogoWrapperLink href="#">
+    <LogoWrapperLink href="/hounter">
       <LogoIcon />
       <p>Hounter</p>
     </LogoWrapperLink>

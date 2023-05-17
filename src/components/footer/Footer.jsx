@@ -57,13 +57,13 @@ export const Footer = () => {
               <h3>Property</h3>
               <ul>
                 <li>
-                  <a href="#">House</a>
+                  <a href="/hounter">House</a>
                 </li>
                 <li>
-                  <a href="#">Apartment</a>
+                  <a href="/hounter">Apartment</a>
                 </li>
                 <li>
-                  <a href="#">Villa</a>
+                  <a href="/hounter">Villa</a>
                 </li>
               </ul>
             </li>
@@ -71,16 +71,16 @@ export const Footer = () => {
               <h3>Article</h3>
               <ul>
                 <li>
-                  <a href="#">New Article</a>
+                  <a href="/hounter">New Article</a>
                 </li>
                 <li>
-                  <a href="#">Popular Article</a>
+                  <a href="/hounter">Popular Article</a>
                 </li>
                 <li>
-                  <a href="#">Most Read</a>
+                  <a href="/hounter">Most Read</a>
                 </li>
                 <li>
-                  <a href="#">Tips & Tricks</a>
+                  <a href="/hounter">Tips & Tricks</a>
                 </li>
               </ul>
             </li>

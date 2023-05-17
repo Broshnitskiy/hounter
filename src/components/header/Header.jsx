@@ -32,10 +32,10 @@ export const Header = () => {
 
           <LinkList>
             <li>
-              <LinkNav href="#">About Us</LinkNav>
+              <LinkNav href="/hounter">About Us</LinkNav>
             </li>
             <li>
-              <LinkNav href="#">Article</LinkNav>
+              <LinkNav href="/hounter">Article</LinkNav>
             </li>
             <li onMouseLeave={handleMouseLeave}>
               <ButtonProperty
@@ -49,13 +49,13 @@ export const Header = () => {
               {hovered && (
                 <PropertyList>
                   <li>
-                    <a href="#">House</a>
+                    <a href="/hounter">House</a>
                   </li>
                   <li>
-                    <a href="#">Apartment</a>
+                    <a href="/hounter">Apartment</a>
                   </li>
                   <li>
-                    <a href="#">Villa</a>
+                    <a href="/hounter">Villa</a>
                   </li>
                 </PropertyList>
               )}
